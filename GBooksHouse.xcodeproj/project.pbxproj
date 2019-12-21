@@ -81,14 +81,16 @@
 		0295D66A23AED3010046ECE0 /* GBooksHouse */ = {
 			isa = PBXGroup;
 			children = (
+				0295D69023AED3290046ECE0 /* Model */,
+				0295D69123AED3310046ECE0 /* View */,
+				0295D69223AED33A0046ECE0 /* ViewModel */,
+				0295D69323AED3880046ECE0 /* ViewController */,
+				0295D69423AED3930046ECE0 /* Service */,
+				0295D69523AED3A30046ECE0 /* Storyboard */,
+				0295D69623AED3B60046ECE0 /* Extension */,
 				0295D66B23AED3010046ECE0 /* AppDelegate.swift */,
 				0295D66D23AED3010046ECE0 /* SceneDelegate.swift */,
-				0295D66F23AED3010046ECE0 /* ViewController.swift */,
-				0295D67123AED3010046ECE0 /* Main.storyboard */,
-				0295D67723AED3050046ECE0 /* Assets.xcassets */,
-				0295D67923AED3050046ECE0 /* LaunchScreen.storyboard */,
 				0295D67C23AED3050046ECE0 /* Info.plist */,
-				0295D67423AED3010046ECE0 /* GBooksHouse.xcdatamodeld */,
 			);
 			path = GBooksHouse;
 			sourceTree = "<group>";
@@ -100,6 +102,60 @@
 				0295D68723AED3050046ECE0 /* Info.plist */,
 			);
 			path = GBooksHouseTests;
+			sourceTree = "<group>";
+		};
+		0295D69023AED3290046ECE0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0295D67423AED3010046ECE0 /* GBooksHouse.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0295D69123AED3310046ECE0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0295D67723AED3050046ECE0 /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0295D69223AED33A0046ECE0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0295D69323AED3880046ECE0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0295D66F23AED3010046ECE0 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0295D69423AED3930046ECE0 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		0295D69523AED3A30046ECE0 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0295D67123AED3010046ECE0 /* Main.storyboard */,
+				0295D67923AED3050046ECE0 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		0295D69623AED3B60046ECE0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
